@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['select'])) {
                 <h3>類義語</h3>
                 <ul>
                     <?php foreach ($selectedWord['synonyms'] as $synonym): ?>
-                        <li><?php echo htmlspecialchars($synonym); ?>: <?php echo htmlspecialchars($selectedWord['synonym_differences'][$synonym]); ?></li>
+                        <li><?php echo htmlspecialchars($synonym); ?></li>
                     <?php endforeach; ?>
                 </ul>
                 <h3>対義語</h3>
