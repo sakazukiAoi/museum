@@ -59,6 +59,23 @@ button:hover {
     margin-top: 0;
 }
 
-.right-column p {
+audio {
+    margin: 10px 0;
+    display: block;
+}
+
+h3 {
+    margin-top: 20px;
     font-size: 1.2em;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.right-column p, .right-column ul {
+    font-size: 1em;
+    color: #555;
 }
