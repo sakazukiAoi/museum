@@ -3,8 +3,7 @@
     "word": "創作文字1",
     "description": "説明1",
     "synonyms": ["類義語1", "類義語2"],
-    "antonyms": ["対義語1"],
-    "pronunciation": "audio/word1.mp3",
+
     "phonetic": "/sousaku1/",
     "example": "これは創作文字1を使った例文です。",
     "similar_spelling": ["創作模字", "創作持字"],
@@ -18,7 +17,7 @@
     "description": "説明2",
     "synonyms": ["類義語A", "類義語B"],
     "antonyms": ["対義語A"],
-    "pronunciation": "audio/word2.mp3",
+
     "phonetic": "/sousaku2/",
     "example": "これは創作文字2を使った例文です。",
     "similar_spelling": ["創索文字", "操作文字"],
