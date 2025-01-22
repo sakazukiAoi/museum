@@ -1,32 +1,30 @@
 [
   {
-    "word": "museum",
-    "description": "A building where objects of historical, scientific, artistic, or cultural interest are stored and exhibited.",
-    "synonyms": ["gallery", "exhibition hall"],
-    "antonyms": ["open space"],
-    "pronunciation": "audio/museum.mp3",
-    "phonetic": "/mjuːˈziːəm/",
-    "example": "The museum houses a collection of ancient artifacts.",
-    "similar_spelling": ["musium", "museam"]
+    "word": "some",
+    "description": "説明1",
+    "synonyms": ["類義語1", "類義語2"],
+    "antonyms": ["対義語1"],
+    "pronunciation": "audio/word1.mp3",
+    "phonetic": "/sousaku1/",
+    "example": "これは創作文字1を使った例文です。",
+    "similar_spelling": ["創作模字", "創作持字"],
+    "synonym_differences": {
+      "類義語1": "類義語1は特定の状況で使用される",
+      "類義語2": "類義語2はより広い意味で使用される"
+    }
   },
   {
-    "word": "library",
-    "description": "A building or room containing collections of books, periodicals, and sometimes films and recorded music for people to read, borrow, or refer to.",
-    "synonyms": ["reading room", "archives"],
-    "antonyms": ["bookstore"],
-    "pronunciation": "audio/library.mp3",
-    "phonetic": "/ˈlaɪbrəri/",
-    "example": "She borrowed a book from the library.",
-    "similar_spelling": ["libary", "liberary"]
-  },
-  {
-    "word": "art",
-    "description": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture.",
-    "synonyms": ["craft", "creativity"],
-    "antonyms": ["science"],
-    "pronunciation": "audio/art.mp3",
-    "phonetic": "/ɑːrt/",
-    "example": "Art is an essential part of human culture.",
-    "similar_spelling": ["arte", "aart"]
+    "word": "アンマン",
+    "description": "unman,霊的な存在",
+    "synonyms": ["類義語A", "類義語1"],
+    "antonyms": ["対義語A"],
+    "pronunciation": "audio/word2.mp3",
+    "phonetic": "/sousaku2/",
+    "example": "これは創作文字2を使った例文です。",
+    "similar_spelling": ["創作模字2", "創作持字2"],
+    "synonym_differences": {
+      "類義語A": "類義語Aは特定の状況で使用される",
+      "類義語B": "類義語Bはより広い意味で使用される"
+    }
   }
 ]
