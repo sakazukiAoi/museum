@@ -1,30 +1,12 @@
 [
   {
-    "word": "創作文字1",
-    "description": "説明1",
-    "synonyms": ["類義語1", "類義語2"],
-
-    "phonetic": "/sousaku1/",
-    "example": "これは創作文字1を使った例文です。",
-    "similar_spelling": ["創作模字", "創作持字"],
-    "synonym_differences": {
-      "類義語1": "類義語1は特定の状況で使用される",
-      "類義語2": "類義語2はより広い意味で使用される"
-    }
-  },
-  {
-    "word": "創作文字2",
-    "description": "説明2",
-    "synonyms": ["類義語A", "類義語B"],
-    "antonyms": ["対義語A"],
-
-    "phonetic": "/sousaku2/",
-    "example": "これは創作文字2を使った例文です。",
-    "similar_spelling": ["創索文字", "操作文字"],
-    "synonym_differences": {
-      "類義語A": "類義語Aは技術的な文脈で使用される",
-      "類義語B": "類義語Bは日常的な文脈で使用される"
-    }
+    "word": "museum",
+    "description": "A building where objects of historical, scientific, artistic, or cultural interest are stored and exhibited.",
+    "synonyms": ["gallery", "exhibition hall"],
+    "antonyms": ["open space"],
+    "pronunciation": "audio/museum.mp3",
+    "phonetic": "/mjuːˈziːəm/",
+    "example": "The museum houses a collection of ancient artifacts.",
+    "similar_spelling": ["musium", "museam"]
   }
-  
 ]
