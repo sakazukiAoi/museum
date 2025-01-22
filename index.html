@@ -60,7 +60,7 @@ function displaySearchResults(results) {
         searchResults.appendChild(button);
     });
 }
-        // 右カラムに単語の詳細を表示
+// 右カラムに単語の詳細を表示
 function displayWordDetails(word) {
     const wordDetails = document.getElementById('wordDetails');
     wordDetails.innerHTML = `
@@ -74,7 +74,15 @@ function displayWordDetails(word) {
         <p>発音記号: ${word.phonetic}</p>
         <h3>類義語</h3>
         <ul>
-            ${word.synonyms.map(synonym => `<li>${synonym}</li>`).join('')}
+            ${word.synonyms
+                .map(synonym => `
+                    <li>
+                        <span class="tooltip" title="${word.synonym_differences?.[synonym] || ''}">
+                            ${synonym}
+                        </span>
+                    </li>
+                `)
+                .join('')}
         </ul>
         <h3>対義語</h3>
         <ul>
@@ -88,7 +96,6 @@ function displayWordDetails(word) {
         </ul>
     `;
 }
-
     </script>
 </body>
 </html>
