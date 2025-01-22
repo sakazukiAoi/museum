@@ -21,10 +21,8 @@
     "pronunciation": "audio/word2.mp3",
     "phonetic": "/sousaku2/",
     "example": "これは創作文字2を使った例文です。",
-    "similar_spelling": ["創作模字2", "創作持字2"],
+    "similar_spelling": ["woman/マラ", "創作持字2"],
     "synonym_differences": {
-      "類似語": "woman/マラ",
-      "類義語B": "類義語Bはより広い意味で使用される"
     }
   }
 ]
