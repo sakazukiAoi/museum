@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -88,6 +89,101 @@
                 </ul>
             `;
         }
+    </script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>創作文字辞書</title>
+</head>
+<body>
+    <div class="container">
+        <!-- 左カラム -->
+        <div class="left-column">
+            <input type="text" id="searchInput" placeholder="検索" />
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <!-- 右カラム -->
+        <div class="right-column" id="wordDetails">
+            <p>ここに選択された単語の詳細が表示されます。</p>
+        </div>
+    </div>
+
+    <script>
+        // グローバル変数
+let dictionary = [];
+
+// JSONデータを読み込む
+fetch('dictionary.json')
+    .then(response => response.json())
+    .then(data => {
+        dictionary = data;
+    })
+    .catch(error => {
+        console.error('JSON読み込みエラー:', error);
+    });
+
+// 検索ボックスに文字が入力されたときのイベント
+document.getElementById('searchInput').addEventListener('input', () => {
+    const query = document.getElementById('searchInput').value.trim().toLowerCase();
+    const results = dictionary.filter(entry => entry.word.toLowerCase().includes(query));
+    displaySearchResults(results);
+});
+
+// 検索結果を左カラムに表示
+function displaySearchResults(results) {
+    const searchResults = document.getElementById('searchResults');
+    searchResults.innerHTML = '';
+
+    if (results.length === 0) {
+        searchResults.innerHTML = '<p>結果が見つかりません。</p>';
+        return;
+    }
+
+    results.forEach(result => {
+        const button = document.createElement('button');
+        button.textContent = result.word;
+        button.classList.add('search-result-button');
+        button.addEventListener('click', () => displayWordDetails(result));
+        searchResults.appendChild(button);
+    });
+}
+        // 右カラムに単語の詳細を表示
+function displayWordDetails(word) {
+    const wordDetails = document.getElementById('wordDetails');
+    wordDetails.innerHTML = `
+        <h2 class="${word.fontClass || ''}">${word.word}</h2>
+        <p>${word.description}</p>
+        <h3>発音</h3>
+        <audio controls>
+            <source src="${word.pronunciation}" type="audio/mpeg">
+            お使いのブラウザは音声再生に対応していません。
+        </audio>
+        <p>発音記号: ${word.phonetic}</p>
+        <h3>類義語</h3>
+        <ul>
+            ${word.synonyms.map(synonym => `<li>${synonym}</li>`).join('')}
+        </ul>
+        <h3>対義語</h3>
+        <ul>
+            ${word.antonyms.map(antonym => `<li>${antonym}</li>`).join('')}
+        </ul>
+        <h3>例文</h3>
+        <p>${word.example}</p>
+        <h3>似たようなスペルの単語</h3>
+        <ul>
+            ${word.similar_spelling.map(similar => `<li>${similar}</li>`).join('')}
+        </ul>
+    `;
+}
+
     </script>
 </body>
 </html>
