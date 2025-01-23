@@ -38,7 +38,7 @@ function displaySearchResults(results) {
     const searchResults = document.getElementById('searchResults');
     searchResults.innerHTML = results
         .map((word, index) => `
-            <button class="word-button" onclick="displayWordDetails(${index})">
+            <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">
                 <span class="word-spell">${word.word}</span>
                 <span class="word-reading">${word.reading}</span>
             </button>
