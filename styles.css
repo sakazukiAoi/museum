@@ -1,61 +1,46 @@
-body{
-font-family: system-ui;
-}
 .container {
     display: flex;
+    gap: 20px;
 }
 
-.left-column {
-    width: 30%;
-    padding: 10px;
+#searchBar {
+    margin-bottom: 10px;
 }
 
-.right-column {
-    width: 70%;
-    padding: 10px;
-    background-color: #f8f8f8;
+#searchResults {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
-.searchInput{
-    margin: 5px 0;
-    width: 100%;    
-}
+
 .word-button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px 0;
-    width: 100%;
     padding: 10px;
+    background-color: #f0f0f0;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #ffffff;
     cursor: pointer;
 }
 
-.word-button:hover {
-    background-color: #eeeeee;
-}
-.searchInput{
-    margin: 5px 0;
-    width: 100%;    
-}
-
-h2{
-font-family: Georgia, serif;
-}
-.word-spell {
-    font-family: serif;
-    font-weight: bold;
+.word-button .word-spell {
     font-size: 1.2em;
+    font-weight: bold;
 }
 
-.word-reading {
-    font-family: system-ui;
-    font-size: 0.9em;
-    color: #666;
+.word-button .word-reading {
+    font-size: 0.8em;
+    color: #555;
 }
 
-/* ツールチップスタイル */
+.right-column {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
 .tooltip {
     position: relative;
     cursor: pointer;
@@ -64,16 +49,12 @@ font-family: Georgia, serif;
 .tooltip:hover::after {
     content: attr(data-tooltip);
     position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
+    left: 0;
+    bottom: -1.5em;
+    background-color: #000;
     color: #fff;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
     white-space: nowrap;
-    font-size: 0.9em;
-    z-index: 10;
-    opacity: 1;
-    pointer-events: none;
 }
