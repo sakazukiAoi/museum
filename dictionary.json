@@ -1,24 +1,18 @@
 [
-  {
-    "word": "some",
-    "description": "説明1",
-    "synonyms": ["類義語1", "類義語2"],
-    "antonyms": ["対義語1"],
-    "pronunciation": "audio/word1.mp3",
-    "phonetic": "/sousaku1/",
-    "reading": "サム",
-    "example": "これは創作文字1を使った例文です。",
-    "similar_spelling": ["創作模字", "創作持字"]
-  },
-  {
-    "word": "museum",
-    "description": "説明2",
-    "synonyms": ["gallery", "exhibition hall"],
-    "antonyms": ["open space"],
-    "pronunciation": "audio/museum.mp3",
-    "phonetic": "/mjuːˈziːəm/",
-    "reading": "ミュージアム",
-    "example": "This is an example sentence for museum.",
-    "similar_spelling": ["musium", "museam"]
-  }
+    {
+        "word": "some",
+        "description": "いくつかの",
+        "reading": "サム",
+        "pronunciation": "audio/some.mp3",
+        "phonetic": "/sʌm/",
+        "example": "This is some example."
+    },
+    {
+        "word": "museum",
+        "description": "博物館",
+        "reading": "ミュージアム",
+        "pronunciation": "audio/museum.mp3",
+        "phonetic": "/mjuːˈziːəm/",
+        "example": "I visited the museum yesterday."
+    }
 ]
