@@ -1,19 +1,13 @@
 [
     {
-        "word": "some",
-        "description": "いくつかの",
-        "reading": "サム",
-        "english":"some",
-        "pronunciation": "audio/some.mp3",
-        "phonetic": "/sʌm/",
+        "word": "some", "description": "いくつかの", "reading": "サム", "english":"some",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
         "example": "This is some example.",
-        "synonyms": ["several", "few"],
-        "antonyms": ["none"],
-        "similar_spelling": ["sum", "sums"],
+        "synonyms": ["several", "few"],"antonyms": ["none"],"similar_spelling": ["sum", "sums"],
         "synonym_differences": {
             "several": "『several』は3つ以上を指すことが多い。",
             "few": "『few』はほとんどないことを示唆する。"
-        }
+            }
     },
         {
         "word": "文法",
@@ -56,4 +50,13 @@
         "similar_spelling": ["musician", "mausoleum"],
         "synonym_differences": {}
     }
+
+    {
+        "word": "unman","reading": "アンマン", "description": "霊的な存在", "english":"fairy ghost",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [""],"antonyms": ["none"],"similar_spelling": [""],
+        "synonym_differences": {
+            }
+    },
 ]
