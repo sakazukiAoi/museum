@@ -38,3 +38,26 @@
     font-size: 0.9em;
     color: #666;
 }
+
+/* ツールチップスタイル */
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 0.9em;
+    z-index: 10;
+    opacity: 1;
+    pointer-events: none;
+}
