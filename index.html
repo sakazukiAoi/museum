@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.008
+    ver.1.009
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -32,7 +32,7 @@
                 dictionary = data;
                 displaySearchResults(dictionary); // 初期表示
             });
-// 検索結果を表示
+        // 検索結果を表示
 function displaySearchResults(results) {
     const searchResults = document.getElementById('searchResults');
     searchResults.innerHTML = results
@@ -96,6 +96,7 @@ function searchWords(query) {
 document.getElementById('searchInput').addEventListener('input', (e) => {
     searchWords(e.target.value);
 });
+
 
         // 検索処理
         function searchWords(query) {
