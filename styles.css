@@ -33,7 +33,10 @@
     font-size: 0.8em;
     color: #555;
 }
-
+.word-button .english {
+    font-size: 0.8em;
+    color: #555;
+}
 .right-column {
     flex: 2;
     padding: 20px;
