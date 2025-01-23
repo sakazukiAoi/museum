@@ -35,7 +35,9 @@ font-family: system-ui;
 .word-button:hover {
     background-color: #eeeeee;
 }
-
+h2{
+    font-family: serif;
+}
 .word-spell {
     font-family: serif;
     font-weight: bold;
@@ -43,6 +45,7 @@ font-family: system-ui;
 }
 
 .word-reading {
+    font-family: system-ui;
     font-size: 0.9em;
     color: #666;
 }
