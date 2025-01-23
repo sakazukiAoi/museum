@@ -6,7 +6,7 @@
     "antonyms": ["対義語1"],
     "pronunciation": "audio/word1.mp3",
     "phonetic": "/sousaku1/",
-    "reading": "サム",  // 読みを追加
+    "reading": "サム",
     "example": "これは創作文字1を使った例文です。",
     "similar_spelling": ["創作模字", "創作持字"]
   },
@@ -17,7 +17,7 @@
     "antonyms": ["open space"],
     "pronunciation": "audio/museum.mp3",
     "phonetic": "/mjuːˈziːəm/",
-    "reading": "ミュージアム",  // 読みを追加
+    "reading": "ミュージアム",
     "example": "This is an example sentence for museum.",
     "similar_spelling": ["musium", "museam"]
   }
