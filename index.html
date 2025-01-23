@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="styles.css">
     <title>創作文字辞書</title>
 </head>
+    ver.2.0000
 <body>
-    ver.1.009
     <div class="container">
         <!-- 左カラム -->
-        <div class="left-column">
+        <div id="searchBar">
             <input type="text" id="searchInput" placeholder="検索（スペルまたは読み）">
-            <div id="searchResults"></div>
         </div>
+        <div id="searchResults"></div>
 
         <!-- 右カラム -->
         <div class="right-column" id="wordDetails">
@@ -23,16 +23,17 @@
 
     <script>
         // グローバル変数
-        let dictionary = [];
+let dictionary = [];
 
-        // JSONデータを取得
-        fetch('dictionary.json')
-            .then(response => response.json())
-            .then(data => {
-                dictionary = data;
-                displaySearchResults(dictionary); // 初期表示
-            });
-        // 検索結果を表示
+// JSONデータを取得する
+fetch('dictionary.json')
+    .then(response => response.json())
+    .then(data => {
+        dictionary = data;
+        displaySearchResults(dictionary); // 初期表示
+    });
+
+// 検索結果を表示
 function displaySearchResults(results) {
     const searchResults = document.getElementById('searchResults');
     searchResults.innerHTML = results
@@ -86,8 +87,8 @@ function displayWordDetails(index) {
 // 検索処理
 function searchWords(query) {
     const filteredWords = dictionary.filter(word =>
-        word.word.toLowerCase().includes(query.toLowerCase()) ||
-        word.reading.includes(query)
+        word.word.toLowerCase().includes(query.toLowerCase()) || 
+        word.reading.includes(query) // 「読み」による検索
     );
     displaySearchResults(filteredWords);
 }
@@ -97,15 +98,6 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
     searchWords(e.target.value);
 });
 
-
-        // 検索処理
-        function searchWords(query) {
-            const filteredWords = dictionary.filter(word =>
-                word.word.toLowerCase().includes(query.toLowerCase()) ||
-                word.reading.includes(query)
-            );
-            displaySearchResults(filteredWords);
-        }
     </script>
 </body>
 </html>
