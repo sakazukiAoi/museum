@@ -8,7 +8,7 @@
         "example": "This is some example.",
         "synonyms": ["several", "few"],
         "antonyms": ["none"],
-        "similar_spelling": [c],
+        "similar_spelling": [""],
         "synonym_differences": {
             "several": "『several』は3つ以上を指すことが多い。",
             "few": "『few』はほとんどないことを示唆する。"
