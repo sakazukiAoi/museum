@@ -6,22 +6,19 @@
     "antonyms": ["対義語1"],
     "pronunciation": "audio/word1.mp3",
     "phonetic": "/sousaku1/",
+    "reading": "サム",  // 読みを追加
     "example": "これは創作文字1を使った例文です。",
-    "similar_spelling": ["創作模字", "創作持字"],
-    "synonym_differences": {
-      "類義語1": "類義語1は特定の状況で使用される",
-      "類義語2": "類義語2はより広い意味で使用される"
-    }
+    "similar_spelling": ["創作模字", "創作持字"]
   },
   {
-    "word": "アンマン",
-    "description": "unman,霊的な存在",
-    "synonyms": ["類似語", "類義語1"],
-    "antonyms": ["対義語A"],
-    "pronunciation": "audio/word2.mp3",
-    "phonetic": "/sousaku2/",
-    "similar_spelling": ["woman/マラ", "創作持字2"],
-    "synonym_differences": {
-    }
+    "word": "museum",
+    "description": "説明2",
+    "synonyms": ["gallery", "exhibition hall"],
+    "antonyms": ["open space"],
+    "pronunciation": "audio/museum.mp3",
+    "phonetic": "/mjuːˈziːəm/",
+    "reading": "ミュージアム",  // 読みを追加
+    "example": "This is an example sentence for museum.",
+    "similar_spelling": ["musium", "museam"]
   }
 ]
