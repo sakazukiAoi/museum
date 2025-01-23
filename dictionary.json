@@ -49,8 +49,7 @@
         "antonyms": [],
         "similar_spelling": ["musician", "mausoleum"],
         "synonym_differences": {}
-    }
-
+    },
     {
         "word": "unman","reading": "アンマン", "description": "霊的な存在", "english":"fairy ghost",
         "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
@@ -58,5 +57,5 @@
         "synonyms": [""],"antonyms": ["none"],"similar_spelling": [""],
         "synonym_differences": {
             }
-    },
+    }
 ]
