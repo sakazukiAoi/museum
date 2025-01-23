@@ -5,12 +5,13 @@
 .left-column {
     width: 30%;
     padding: 10px;
-    background-color: #f8f8f8;
+
 }
 
 .right-column {
     width: 70%;
     padding: 10px;
+    background-color: #f8f8f8;
 }
 
 .word-button {
