@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.010
+    ver.1.020
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -40,6 +40,7 @@ function displaySearchResults(results) {
             <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">
                 <span class="word-spell">${word.word}</span>
                 <span class="word-reading">${word.reading}</span>
+                <span class="word-reading">${word.english}</span>
             </button>
         `)
         .join('');
@@ -52,6 +53,7 @@ function displayWordDetails(index) {
     wordDetails.innerHTML = `
         <h2>${word.word}</h2>
         <p>${word.description}</p>
+        <p>${word.english}</p>
         <h3>発音</h3>
         <audio controls>
             <source src="${word.pronunciation}" type="audio/mpeg">
