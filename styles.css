@@ -35,6 +35,11 @@ font-family: system-ui;
 .word-button:hover {
     background-color: #eeeeee;
 }
+.searchInput{
+    margin: 5px 0;
+    width: 100%;    
+}
+
 h2{
 font-family: Georgia, serif;
 }
