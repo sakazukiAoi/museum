@@ -24,81 +24,44 @@
     <script>
         // グローバル変数
 let dictionary = [];
+// JSONデータを取得する
+let dictionary = [];
 
-// JSONデータを読み込む
+// ページロード時にJSONを取得
 fetch('dictionary.json')
     .then(response => response.json())
     .then(data => {
         dictionary = data;
-    })
-    .catch(error => {
-        console.error('JSON読み込みエラー:', error);
+        displaySearchResults(dictionary); // 初期表示
     });
 
-// 検索ボックスに文字が入力されたときのイベント
-document.getElementById('searchInput').addEventListener('input', () => {
-    const query = document.getElementById('searchInput').value.trim().toLowerCase();
-    const results = dictionary.filter(entry => entry.word.toLowerCase().includes(query));
-    displaySearchResults(results);
-});
-
-// 検索結果を左カラムに表示
+// 検索結果を表示
 function displaySearchResults(results) {
     const searchResults = document.getElementById('searchResults');
-    searchResults.innerHTML = '';
-
-    if (results.length === 0) {
-        searchResults.innerHTML = '<p>結果が見つかりません。</p>';
-        return;
-    }
-
-    results.forEach(result => {
-        const button = document.createElement('button');
-        button.textContent = result.word;
-        button.classList.add('search-result-button');
-        button.addEventListener('click', () => displayWordDetails(result));
-        searchResults.appendChild(button);
-    });
+    searchResults.innerHTML = results
+        .map(word => `
+            <button class="word-button" onclick="displayWordDetails(${JSON.stringify(word)})">
+                <span class="word-spell">${word.word}</span>
+                <span class="word-reading">${word.reading}</span>
+            </button>
+        `)
+        .join('');
 }
-// 右カラムに単語の詳細を表示
-function displayWordDetails(word) {
-    const wordDetails = document.getElementById('wordDetails');
-    wordDetails.innerHTML = `
-        <h2 class="${word.fontClass || ''}">${word.word}</h2>
-        <p>${word.description}</p>
-        <h3>発音</h3>
-        <audio controls>
-            <source src="${word.pronunciation}" type="audio/mpeg">
-            お使いのブラウザは音声再生に対応していません。
-        </audio>
-        <p>発音記号: ${word.phonetic}</p>
-        <h3>類義語</h3>
-        <ul>
-            ${word.synonyms
-                .map(synonym => `
-                    <li>
-                        <span class="tooltip-wrapper">
-                            ${synonym}
-                            <span class="tooltip-content">
-                                ${word.synonym_differences?.[synonym] || ''}
-                            </span>
-                        </span>
-                    </li>
-                `)
-                .join('')}
-        </ul>
-        <h3>対義語</h3>
-        <ul>
-            ${word.antonyms.map(antonym => `<li>${antonym}</li>`).join('')}
-        </ul>
-        <h3>例文</h3>
-        <p>${word.example}</p>
-        <h3>似たようなスペルの単語</h3>
-        <ul>
-            ${word.similar_spelling.map(similar => `<li>${similar}</li>`).join('')}
-        </ul>
-    `;
+
+// 検索処理
+function searchWords(query) {
+    const filteredWords = dictionary.filter(word =>
+        word.word.toLowerCase().includes(query.toLowerCase()) ||
+        word.reading.includes(query) // 「読み」による検索
+    );
+    displaySearchResults(filteredWords);
 }
+
+// 検索バーのイベントリスナー
+document.getElementById('searchInput').addEventListener('input', (e) => {
+    searchWords(e.target.value);
+});
+
     </script>
 </body>
 </html>
