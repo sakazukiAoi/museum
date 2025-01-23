@@ -77,8 +77,11 @@ function displayWordDetails(word) {
             ${word.synonyms
                 .map(synonym => `
                     <li>
-                        <span class="tooltip" title="${word.synonym_differences?.[synonym] || ''}">
+                        <span class="tooltip-wrapper">
                             ${synonym}
+                            <span class="tooltip-content">
+                                ${word.synonym_differences?.[synonym] || '説明がありません'}
+                            </span>
                         </span>
                     </li>
                 `)
