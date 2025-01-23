@@ -1,12 +1,11 @@
 .container {
     display: flex;
-    width: 100%;
 }
 
 .left-column {
     width: 30%;
     padding: 10px;
-    border-right: 1px solid #ccc;
+    background-color: #f8f8f8;
 }
 
 .right-column {
@@ -14,77 +13,28 @@
     padding: 10px;
 }
 
-.search-result-button {
-    display: block;
-    margin: 5px 0;
-    padding: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.custom-font {
-    font-family: 'Fantasy', serif;
-    color: #333;
-    font-size: 1.5rem;
-}
-button{
-    width:97.5%;
-}
-
-.tooltip-wrapper {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    color: blue;
-    text-decoration: underline;
-}
-
-.tooltip-content {
-    display: none;
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 8px 10px;
-    border-radius: 5px;
-    white-space: nowrap;
-    font-size: 0.9em;
-    z-index: 10;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.tooltip-wrapper:hover .tooltip-content {
-    display: block;
-}
 .word-button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin: 5px 0;
     padding: 10px;
-    margin: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     cursor: pointer;
-    text-align: center;
-    font-size: 1em;
 }
 
 .word-button:hover {
-    background-color: #e6e6e6;
+    background-color: #eeeeee;
 }
 
 .word-spell {
     font-weight: bold;
     font-size: 1.2em;
-    margin-bottom: 5px;
 }
 
 .word-reading {
     font-size: 0.9em;
     color: #666;
 }
-
