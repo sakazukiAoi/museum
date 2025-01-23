@@ -8,7 +8,7 @@
         "example": "This is some example.",
         "synonyms": ["several", "few"],
         "antonyms": ["none"],
-        "similar_spelling": ["sum", "sums"],
+        "similar_spelling": [c],
         "synonym_differences": {
             "several": "『several』は3つ以上を指すことが多い。",
             "few": "『few』はほとんどないことを示唆する。"
@@ -21,7 +21,7 @@
         "pronunciation": "audio/museum.mp3",
         "phonetic": "/mjuːˈziːəm/",
         "example": "I visited the museum yesterday.",
-        "synonyms": [],
+        "synonyms": ["several", "few"],
         "antonyms": [],
         "similar_spelling": ["musician", "mausoleum"],
         "synonym_differences": {}
