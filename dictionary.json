@@ -15,6 +15,20 @@
         }
     },
     {
+        "word": "vanshalls",
+        "description": "自律神経の異常やストレスにおける感覚器官の違和感",
+        "reading": "バンシャルス",
+        "pronunciation": "audio/vanshalls.mp3",
+        "phonetic": "/sʌm/",
+        "example": ".",
+        "synonyms": [feel],
+        "antonyms": [],
+        "similar_spelling": [vanshalls occurred.],
+        "synonym_differences": {
+            "feel": "感じること"
+        }
+    },
+    {
         "word": "museum",
         "description": "博物館",
         "reading": "ミュージアム",
