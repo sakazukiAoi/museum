@@ -12,12 +12,16 @@
     padding: 10px;
     background-color: #f8f8f8;
 }
-
+.searchInput{
+    margin: 5px 0;
+    width: 100%;    
+}
 .word-button {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px 0;
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
