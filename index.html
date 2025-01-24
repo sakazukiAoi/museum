@@ -53,13 +53,13 @@ function displayWordDetails(index) {
     wordDetails.innerHTML = `
         <h2>${word.word}</h2>
         <p>${word.description}</p>
+        <h3>英語: ${word.english}</h3>
         <h3>発音</h3>
         <audio controls>
             <source src="${word.pronunciation}" type="audio/mpeg">
             お使いのブラウザは音声再生に対応していません。
         </audio>
         <p>発音記号: ${word.phonetic}</p>
-        <p>英語: ${word.english}</p>
         <h3>類義語</h3>
         <ul>
             ${word.synonyms.map(synonym => `
