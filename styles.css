@@ -1,3 +1,10 @@
+body{
+font-family: sans-serif;
+}
+h2{
+    font-family: serif;
+}
+
 .container {
     display: flex;
     gap: 20px;
