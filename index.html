@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.029
+    ver.1.030
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -37,8 +37,7 @@ function displaySearchResults(results) {
     const searchResults = document.getElementById('searchResults');
     searchResults.innerHTML = results
         .map((word, index) => `
-            <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">
-                <span class="word-spell">${word.word}</span>
+            <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">                <span class="word-spell">${word.word}</span>
                 <span class="word-reading">${word.reading}</span>
                 <span class="word-english">${word.english}</span>
             </button>
