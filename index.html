@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.020
+    ver.1.021
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -53,7 +53,7 @@ function displayWordDetails(index) {
     wordDetails.innerHTML = `
         <h2>${word.word}</h2>
         <p>${word.description}</p>
-        <h3>英語: ${word.english}</h3>
+        <p>英語: ${word.english}</p>
         <h3>発音</h3>
         <audio controls>
             <source src="${word.pronunciation}" type="audio/mpeg">
