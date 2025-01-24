@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.027
+    ver.1.023
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -88,9 +88,8 @@ function displayWordDetails(index) {
 // 検索処理
 function searchWords(query) {
     const filteredWords = dictionary.filter(word =>
-        word.word.toLowerCase().includes(query.toLowerCase()) ||  // スペルで検索
-        word.reading.includes(query) ||                           // 読みで検索
-        word.english.toLowerCase().includes(query.toLowerCase())  // 英語で検索
+        word.word.toLowerCase().includes(query.toLowerCase()) ||
+        word.reading.includes(query)
     );
     displaySearchResults(filteredWords);
 }
@@ -99,15 +98,17 @@ function searchWords(query) {
 document.getElementById('searchInput').addEventListener('input', (e) => {
     searchWords(e.target.value);
 });
-// 検索処理
-function searchWords(query) {
-    const filteredWords = dictionary.filter(word =>
-        word.word.toLowerCase().includes(query.toLowerCase()) ||  // スペルで検索
-        word.reading.includes(query) ||                           // 読みで検索
-        word.english.toLowerCase().includes(query.toLowerCase())  // 英語で検索
-    );
-    displaySearchResults(filteredWords);
-}
+
+
+        // 検索処理
+        function searchWords(query) {
+            const filteredWords = dictionary.filter(word =>
+                word.word.toLowerCase().includes(query.toLowerCase()) ||
+                word.english.toLowerCase().includes(query.toLowerCase()) ||
+                word.reading.includes(query)
+            );
+            displaySearchResults(filteredWords);
+        }
     </script>
 </body>
 </html>
