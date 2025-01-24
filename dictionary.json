@@ -1,6 +1,6 @@
 [
     {
-        "word": "ver.103", "description": "", "reading": "", "english":"",
+        "word": "ver.104", "description": "", "reading": "", "english":"",
         "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
         "example": "This is some example.",
         "synonyms": ["several", "few"],"antonyms": ["none"],"similar_spelling": ["sum", "sums"],
@@ -147,14 +147,106 @@
     {
         "word": "","reading": "コーリ", "description": "確定する,設ける,定める", "english":"establish",
         "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "I'm coming!とはつかわない",
+        "example": "",
         "synonyms": [],"antonyms": [],"similar_spelling": [],
         "synonym_differences": {}
     },
     {
         "word": "","reading": "サー", "description": "海、海の波、擬音でも使われる", "english":"sea",
         "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "I'm coming!とはつかわない",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "サーク", "description": "捜索、探索、検索、索", "english":"search",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "シ", "description": "見る、視認する", "english":"see",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "シオ", "description": "輝く", "english":"shine",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "スゥ", "description": "ゆっくり、遅い", "english":"slow",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "スウギ", "description": "", "english":"sliwly",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "スル", "description": "", "english":"sleep",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "スルディア", "description": "眠っている", "english":"sleeping",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "セ", "description": "", "english":"say",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "セノ", "description": "7", "english":"seven",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    }
+    ,
+    {
+        "word": "","reading": "セノリオ", "description": "虹", "english":"rainbow",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ソーク", "description": "発見", "english":"find",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ソモ", "description": "しかし、だけど、逆説の意で使われる", "english":"but",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ソラト", "description": "7", "english":"s",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
         "synonyms": [],"antonyms": [],"similar_spelling": [],
         "synonym_differences": {}
     }
