@@ -59,9 +59,121 @@
     },
 
     {
-        "word": "i","reading": "イ", "description": "霊的な存在", "english":"in",
+        "word": "i","reading": "イ", "description": "inと同じ", "english":"in",
         "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
         "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+        {
+        "word": "","reading": "イ ザ ウォル", "description": "この世で", "english":"in this world",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+        {
+        "word": "","reading": "イカル", "description": "前置詞", "english":"over",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    }, 
+    {
+        "word": "","reading": "ウ", "description": "動詞", "english":"walk",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ウィオ", "description": "形容詞", "english":"white",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ウィク", "description": "疑問詞", "english":"which",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ウェ", "description": "疑問詞", "english":"when",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+  {
+        "word": "","reading": "ウォク", "description": "動詞", "english":"work",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+  {
+        "word": "","reading": "オソス", "description": "動詞", "english":"burn",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+  {
+        "word": "","reading": "オフ", "description": "不定代名詞", "english":"all",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+  {
+        "word": "","reading": "ガ", "description": "行く、向かう", "english":"go",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "kario","reading": "カリオ", "description": "服", "english":"clothes",
+        "pronunciation": "audio/some.mp3", "phonetic": "/kɑ.ɾi.o/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "kario","reading": "ク", "description": "屋,店", "english":"shop",
+        "pronunciation": "audio/some.mp3", "phonetic": "/k/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "クウ", "description": "クッキー", "english":"cookie",
+        "pronunciation": "audio/some.mp3", "phonetic": "/k/",
+        "example": "This is some example.",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "コ", "description": "来る", "english":"come",
+        "pronunciation": "audio/some.mp3", "phonetic": "/k/",
+        "example": "I'm coming!とはつかわない",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "コーリ", "description": "確定する,設ける,定める", "english":"establish",
+        "pronunciation": "audio/some.mp3", "phonetic": "/k/",
+        "example": "I'm coming!とはつかわない",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "サー", "description": "海、海の波、擬音でも使われる", "english":"sea",
+        "pronunciation": "audio/some.mp3", "phonetic": "/k/",
+        "example": "I'm coming!とはつかわない",
         "synonyms": [],"antonyms": [],"similar_spelling": [],
         "synonym_differences": {}
     }
