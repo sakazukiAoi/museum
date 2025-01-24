@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.023
+    ver.1.029
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -89,7 +89,8 @@ function displayWordDetails(index) {
 function searchWords(query) {
     const filteredWords = dictionary.filter(word =>
         word.word.toLowerCase().includes(query.toLowerCase()) ||
-        word.reading.includes(query)
+        word.reading.includes(query) ||
+        word.english.toLowerCase().includes(query.toLowerCase())
     );
     displaySearchResults(filteredWords);
 }
@@ -104,8 +105,8 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
         function searchWords(query) {
             const filteredWords = dictionary.filter(word =>
                 word.word.toLowerCase().includes(query.toLowerCase()) ||
-                word.english.toLowerCase().includes(query.toLowerCase()) ||
-                word.reading.includes(query)
+                word.reading.includes(query) ||
+                word.english.toLowerCase().includes(query.toLowerCase())
             );
             displaySearchResults(filteredWords);
         }
