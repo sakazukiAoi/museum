@@ -44,6 +44,9 @@ h2{
     font-size: 0.8em;
     color: #555;
 }
+.left-column {
+  overflow: scroll;    
+}
 .right-column {
     flex: 2;
     padding: 20px;
