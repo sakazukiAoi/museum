@@ -7,7 +7,7 @@
     <title>創作文字辞書</title>
 </head>
 <body>
-    ver.1.030
+    ver.1.012
     <div class="container">
         <!-- 左カラム -->
         <div class="left-column">
@@ -37,7 +37,8 @@ function displaySearchResults(results) {
     const searchResults = document.getElementById('searchResults');
     searchResults.innerHTML = results
         .map((word, index) => `
-            <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">                <span class="word-spell">${word.word}</span>
+            <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">
+                <span class="word-spell">${word.word}</span>
                 <span class="word-reading">${word.reading}</span>
                 <span class="word-english">${word.english}</span>
             </button>
@@ -52,13 +53,13 @@ function displayWordDetails(index) {
     wordDetails.innerHTML = `
         <h2>${word.word}</h2>
         <p>${word.description}</p>
-        <p>${word.english}</p>
         <h3>発音</h3>
         <audio controls>
             <source src="${word.pronunciation}" type="audio/mpeg">
             お使いのブラウザは音声再生に対応していません。
         </audio>
         <p>発音記号: ${word.phonetic}</p>
+        <p>英語: ${word.english}</p>
         <h3>類義語</h3>
         <ul>
             ${word.synonyms.map(synonym => `
