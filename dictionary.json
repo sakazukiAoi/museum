@@ -55,7 +55,14 @@
         "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
         "example": "This is some example.",
         "synonyms": [""],"antonyms": ["none"],"similar_spelling": [""],
-        "synonym_differences": {
-            }
-    }
+        "synonym_differences": { }
+    },
+
+    {
+        "word": "i","reading": "イ", "description": "霊的な存在", "english":"in",
+        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
+        "example": "This is some example.",
+        "synonyms": [""],"antonyms": ["none"],"similar_spelling": [""],
+        "synonym_differences": { }
+    },
 ]
