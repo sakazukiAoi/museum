@@ -1,6 +1,6 @@
 [
     {
-        "word": "ver.102", "description": "", "reading": "", "english":"",
+        "word": "ver.103", "description": "", "reading": "", "english":"",
         "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
         "example": "This is some example.",
         "synonyms": ["several", "few"],"antonyms": ["none"],"similar_spelling": ["sum", "sums"],
@@ -124,7 +124,7 @@
         "synonym_differences": {}
     },
     {
-        "word": "kario","reading": "ク", "description": "屋,店", "english":"shop",
+        "word": "k","reading": "ク", "description": "屋,店", "english":"shop",
         "pronunciation": "audio/some.mp3", "phonetic": "/k/",
         "example": "This is some example.",
         "synonyms": [],"antonyms": [],"similar_spelling": [],
