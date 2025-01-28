@@ -284,5 +284,82 @@
         "example": "",
         "synonyms": [],"antonyms": [],"similar_spelling": [],
         "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ダ", "description": "大きい　広い", "english":"large",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "タッタ　タクタク", "description": "時計　秒針の音", "english":"clok",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "タブロ", "description": "机　テーブル", "english":"table",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "チージャ", "description": "ピザ", "english":"pizza",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ティ", "description": "考える", "english":"think",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ディ", "description": "大きい 壮大な　誇張表現", "english":"big",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ディリ", "description": "飲み物　飲む行為", "english":"drink",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ト", "description": "～へ", "english":"to",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ド", "description": "動詞", "english":"do",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "トゥー", "description": "疑問", "english":"what",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "トゥリ", "description": "木", "english":"tree",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
     }
 ]
