@@ -258,7 +258,28 @@
         "synonym_differences": {}
     },
     {
-        "word": "","reading": "シ", "description": "海", "english":"see",
+        "word": "","reading": "ダ", "description": "be", "english":"be is",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "ダ　アグロ", "description": "農業", "english":"the agricuture",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "タサ", "description": "take", "english":"take",
+        "pronunciation": "audio/some.mp3", "phonetic": "",
+        "example": "",
+        "synonyms": [],"antonyms": [],"similar_spelling": [],
+        "synonym_differences": {}
+    },
+    {
+        "word": "","reading": "tata", "description": "父　強さ　戦士", "english":"papa dirty",
         "pronunciation": "audio/some.mp3", "phonetic": "",
         "example": "",
         "synonyms": [],"antonyms": [],"similar_spelling": [],
