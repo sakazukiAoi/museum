@@ -3,18 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>創作文字辞書</title>
+    <style>
+        body{
+font-family: sans-serif;
+    max-width: 100%;
+    max-height: 100%;  
+}
+h2{
+    font-family: serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;    
+    height: 660px;
+}
+
+#searchBar {
+    margin-bottom: 10px;
+}
+
+#searchResults {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.word-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.word-button .word-spell {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.word-button .word-reading {
+    font-size: 0.8em;
+    color: #555;
+}
+.word-button .english {
+    font-size: 0.8em;
+    color: #555;
+}
+.left-column {
+  overflow: scroll;    
+}
+.right-column {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+      overflow: scroll; 
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 0;
+    bottom: -1.5em;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+    </style>
+    <title>創作文字辞書1.1</title>
 </head>
 <body>
     <div class="container">
-        <!-- 左カラム -->
         <div class="left-column">
             <input type="text" id="searchInput" placeholder="検索（スペルまたは読み）">
             <div id="searchResults"></div>
         </div>
 
-        <!-- 右カラム -->
         <div class="right-column" id="wordDetails">
             <p>ここに選択された単語の詳細が表示されます。</p>
         </div>
@@ -30,75 +107,68 @@
             .then(data => {
                 dictionary = data;
                 displaySearchResults(dictionary); // 初期表示
-            });
+            })
+            .catch(error => console.error('Error loading the dictionary:', error)); // Add error handling
+
         // 検索結果を表示
-function displaySearchResults(results) {
-    const searchResults = document.getElementById('searchResults');
-    searchResults.innerHTML = results
-        .map((word, index) => `
-            <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">
-                <span class="word-spell">${word.word}</span>
-                <span class="word-reading">${word.reading}</span>
-                <span class="word-english">${word.english}</span>
-            </button>
-        `)
-        .join('');
-}
+        function displaySearchResults(results) {
+            const searchResults = document.getElementById('searchResults');
+            searchResults.innerHTML = results
+                .map((word, index) => `
+                    <button class="word-button" onclick="displayWordDetails(${dictionary.indexOf(word)})">
+                        <span class="word-spell">${word.word}</span>
+                        <span class="word-reading">${word.reading}</span>
+                        <span class="word-english">${word.english}</span>
+                    </button>
+                `)
+                .join('');
+        }
 
-// 単語詳細を右カラムに表示
-function displayWordDetails(index) {
-    const word = dictionary[index];
-    const wordDetails = document.getElementById('wordDetails');
-    wordDetails.innerHTML = `
-        <h2>${word.word}</h2>
-        <p>${word.description}</p>
-        <p>英語: ${word.english}</p>
-        <h3>発音</h3>
-        <audio controls>
-            <source src="${word.pronunciation}" type="audio/mpeg">
-            お使いのブラウザは音声再生に対応していません。
-        </audio>
-        <p>発音記号: ${word.phonetic}</p>
-        <h3>類義語</h3>
-        <ul>
-            ${word.synonyms.map(synonym => `
-                <li>
-                    <span class="tooltip" data-tooltip="${word.synonym_differences[synonym] || ''}">
-                        ${synonym}
-                    </span>
-                </li>`).join('')}
-        </ul>
-        <h3>対義語</h3>
-        <ul>
-            ${word.antonyms.map(antonym => `
-                <li>
-                    <span class="tooltip" data-tooltip="${word.synonym_differences[antonym] || ''}">
-                        ${antonym}
-                    </span>
-                </li>`).join('')}
-        </ul>
-        <h3>似たスペルの単語</h3>
-        <ul>
-            ${word.similar_spelling.map(similar => `<li>${similar}</li>`).join('')}
-        </ul>
-    `;
-}
+        // 単語詳細を右カラムに表示
+        /*<h3>発音</h3>
+                <audio controls>
+                    <source src="${word.pronunciation}" type="audio/mpeg">
+                    お使いのブラウザは音声再生に対応していません。
+                </audio>
+                <p>発音記号: ${word.phonetic}</p>
+                */
+        function displayWordDetails(index) {
+            const word = dictionary[index];
+            const wordDetails = document.getElementById('wordDetails');
+            wordDetails.innerHTML = `
+                <h2>${word.word}</h2>
+                <p>${word.description}</p>
+                <p>英語: ${word.english}</p>
+                <p>発音: ${word.reading}</p>
+                <h3>例文</h3>
+                <p> ${word.example}</p>
+                <h3>類義語</h3>
+                <ul>
+                    ${word.synonyms.map(synonym => `
+                        <li>
+                            <span class="tooltip">
+                                ${synonym}
+                                ${word.synonym_differences && word.synonym_differences[synonym] ? `<span class="tooltiptext">${word.synonym_differences[synonym]}</span>` : ''}
+                            </span>
+                        </li>`).join('')}
+                </ul>
 
-// 検索処理
-function searchWords(query) {
-    const filteredWords = dictionary.filter(word =>
-        word.word.toLowerCase().includes(query.toLowerCase()) ||
-        word.reading.includes(query) ||
-        word.english.toLowerCase().includes(query.toLowerCase())
-    );
-    displaySearchResults(filteredWords);
-}
-
-// 検索バーのイベントリスナー
-document.getElementById('searchInput').addEventListener('input', (e) => {
-    searchWords(e.target.value);
-});
-
+                <h3>対義語</h3>
+                <ul>
+                    ${word.antonyms.map(antonym => `
+                        <li>
+                            <span class="tooltip">
+                                ${antonym}
+                                ${word.antonym_differences && word.antonym_differences[antonym] ? `<span class="tooltiptext">${word.antonym_differences[antonym]}</span>` : ''}
+                            </span>
+                        </li>`).join('')}
+                </ul>
+                <h3>似たスペルの単語</h3>
+                <ul>
+                    ${word.similar_spelling.map(similar => `<li>${similar}</li>`).join('')}
+                </ul>
+            `;
+        }
 
         // 検索処理
         function searchWords(query) {
@@ -109,6 +179,11 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
             );
             displaySearchResults(filteredWords);
         }
+
+        // 検索バーのイベントリスナー
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchWords(e.target.value);
+        });
     </script>
 </body>
 </html>
