@@ -1,17 +1,26 @@
 [
-    {
-        "word": "ver.104　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　", "description": "", "reading": "", "english":"",
-        "pronunciation": "audio/some.mp3", "phonetic": "/sʌm/",
-        "example": "This is some example.",
-        "synonyms": ["several", "few"],"antonyms": ["none"],"similar_spelling": ["sum", "sums"],
-        "synonym_differences": {
-            "several": "『several』は3つ以上を指すことが多い。",
-            "few": "『few』はほとんどないことを示唆する。"
-            }
+{
+    "word": "ver.105",
+    "description": "",
+    "reading": "",
+    "english": "",
+    "pronunciation": "audio/some.mp3",
+    "phonetic": "/sʌm/",
+    "example": "This is some example.",
+    "synonyms": ["several", "few"],
+    "antonyms": ["none"],
+    "similar_spelling": ["sum", "sums"],
+    "synonym_differences": {
+        "several": "/3つ以上を指すことが多い。",
+        "few": "/ほとんどないことを示唆する。"
     },
+    "antonym_differences": {
+        "none": "/全くないことを示す。"
+    }
+},
         {
         "word": "文法",
-        "description": "ing-ディア　ed-レオ　's-ス　受動態への変化-レオリ　動名詞-イオ　(日)のとき、複数じゃないとき(英)に'sをつけない　楽器のtheはいらない",
+        "description": "",
         "reading": "ぶんぽう",
         "english": "grammar",
         "pronunciation": "",
@@ -38,91 +47,6 @@
         "synonyms": [],"antonyms": [],"similar_spelling": [],
         "synonym_differences": {}
     },
-
-    {
-        "word": "i","reading": "イ", "description": "inと同じ", "english":"in",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-        {
-        "word": "","reading": "イ ザ ウォル", "description": "この世で", "english":"in this world",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-        {
-        "word": "","reading": "イカル", "description": "前置詞", "english":"over",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    }, 
-    {
-        "word": "","reading": "ウ", "description": "動詞", "english":"walk",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ウィオ", "description": "形容詞", "english":"white",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ウィク", "description": "疑問詞", "english":"which",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ウェ", "description": "疑問詞", "english":"when",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-  {
-        "word": "","reading": "ウォク", "description": "動詞", "english":"work",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-  {
-        "word": "","reading": "オソス", "description": "動詞", "english":"burn",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-  {
-        "word": "","reading": "オフ", "description": "不定代名詞", "english":"all",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-  {
-        "word": "","reading": "ガ", "description": "行く、向かう", "english":"go",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "kario","reading": "カリオ", "description": "服", "english":"clothes",
-        "pronunciation": "audio/some.mp3", "phonetic": "/kɑ.ɾi.o/",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
     {
         "word": "k","reading": "ク", "description": "屋,店", "english":"shop",
         "pronunciation": "audio/some.mp3", "phonetic": "/k/",
@@ -130,236 +54,351 @@
         "synonyms": [],"antonyms": [],"similar_spelling": [],
         "synonym_differences": {}
     },
-    {
-        "word": "","reading": "クウ", "description": "クッキー", "english":"cookie",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "This is some example.",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
+  {
+    "word": "ra",
+    "reading": "ラ",
+    "description": "名詞/主格:私、私は",
+    "english": "I",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ra 'tubame",
+    "synonyms": [
+      "none1",
+      "none2"
+    ],
+    "antonyms": [
+      "none3"
+    ],
+    "similar_spelling": [],
+    "synonym_differences": {
+      "none": "/1",
+      "none2": "/2"
     },
-    {
-        "word": "","reading": "コ", "description": "来る", "english":"come",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "I'm coming!とはつかわない",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "コーリ", "description": "確定する,設ける,定める", "english":"establish",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "サー", "description": "海、海の波、擬音でも使われる", "english":"sea",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "サーク", "description": "捜索、探索、検索、索", "english":"search",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "シ", "description": "見る、視認する", "english":"see",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "シオ", "description": "輝く", "english":"shine",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "スゥ", "description": "ゆっくり、遅い", "english":"slow",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "スウギ", "description": "", "english":"sliwly",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "スル", "description": "", "english":"sleep",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "スルディア", "description": "眠っている", "english":"sleeping",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "セ", "description": "", "english":"say",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "セノ", "description": "7", "english":"seven",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
+    "antonym_differences": {
+      "none3": "/3"
     }
-    ,
-    {
-        "word": "","reading": "セノリオ", "description": "虹", "english":"rainbow",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ソーク", "description": "発見", "english":"find",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ソモ", "description": "しかし、だけど、逆説の意で使われる", "english":"but",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ソラト", "description": "7", "english":"s",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ソリ", "description": "小鳥", "english":"small birds",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ダ", "description": "be", "english":"be is",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ダ　アグロ", "description": "農業", "english":"the agricuture",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "タサ", "description": "take", "english":"take",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "tata", "description": "父　強さ　戦士", "english":"papa dirty",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ダ", "description": "大きい　広い", "english":"large",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "タッタ　タクタク", "description": "時計　秒針の音", "english":"clok",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "タブロ", "description": "机　テーブル", "english":"table",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "チージャ", "description": "ピザ", "english":"pizza",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ティ", "description": "考える", "english":"think",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ディ", "description": "大きい 壮大な　誇張表現", "english":"big",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ディリ", "description": "飲み物　飲む行為", "english":"drink",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ト", "description": "～へ", "english":"to",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "ド", "description": "動詞", "english":"do",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "トゥー", "description": "疑問", "english":"what",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    },
-    {
-        "word": "","reading": "トゥリ", "description": "木", "english":"tree",
-        "pronunciation": "audio/some.mp3", "phonetic": "",
-        "example": "",
-        "synonyms": [],"antonyms": [],"similar_spelling": [],
-        "synonym_differences": {}
-    }
+  },
+  {
+    "word": "rai",
+    "reading": "ライ",
+    "description": "名詞/所有格:私の",
+    "english": "my",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ro rai 'pencil",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rasu",
+    "reading": "ラス",
+    "description": "名詞/目的格:私を、私に",
+    "english": "me",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "'plese rasu",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "ramu",
+    "reading": "ラム",
+    "description": "名詞/所有格:のもの",
+    "english": "mine",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ro ramu",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rago",
+    "reading": "ラゴ",
+    "description": "名詞/主格:私たち、私たちは",
+    "english": "we",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ra 'Japanese",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "raga",
+    "reading": "ラゴ",
+    "description": "名詞/主格:",
+    "english": "our",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "ran",
+    "reading": "ラン",
+    "description": "名詞/主格:",
+    "english": "us",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "ransu",
+    "reading": "ランス",
+    "description": "名詞/主格:",
+    "english": "ours",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "ri",
+    "reading": "リ",
+    "description": "名詞/主格:",
+    "english": "you",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ri 'tubame",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rii",
+    "reading": "リイ",
+    "description": "名詞/所有格:私の",
+    "english": "my",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ro rai 'pencil",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "risu",
+    "reading": "リス",
+    "description": "名詞/目的格:私を、私に",
+    "english": "me",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "'plese rasu",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rimu",
+    "reading": "リム",
+    "description": "名詞/所有格:のもの",
+    "english": "mine",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ro rimu",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rigo",
+    "reading": "リゴ",
+    "description": "名詞/主格:私たち、私たちは",
+    "english": "we",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ri 'Japanese",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "riga",
+    "reading": "リゴ",
+    "description": "名詞/主格:",
+    "english": "our",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rin",
+    "reading": "リン",
+    "description": "名詞/主格:",
+    "english": "us",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rinsu",
+    "reading": "リンス",
+    "description": "名詞/主格:",
+    "english": "ours",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "ru",
+    "reading": "ル",
+    "description": "名詞/主格:私、私は",
+    "english": "he",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ru 'tubame",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rui",
+    "reading": "ルイ",
+    "description": "名詞/所有格:私の",
+    "english": "hem",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ro rui 'pencil",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rusu",
+    "reading": "ルス",
+    "description": "名詞/目的格:私を、私に",
+    "english": "me",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "'plese rusu",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rumu",
+    "reading": "ルム",
+    "description": "名詞/所有格:のもの",
+    "english": "mine",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ro rumu",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "rugo",
+    "reading": "ルゴ",
+    "description": "名詞/主格:私たち、私たちは",
+    "english": "we",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "ru 'Japanese",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "ruga",
+    "reading": "ルゴ",
+    "description": "名詞/主格:",
+    "english": "our",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "run",
+    "reading": "ルン",
+    "description": "名詞/主格:",
+    "english": "us",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  },
+  {
+    "word": "runsu",
+    "reading": "ルンス",
+    "description": "名詞/主格:",
+    "english": "ours",
+    "pronunciation": "",
+    "phonetic": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "similar_spelling": [],
+    "synonym_differences": {},
+    "antonym_differences": {}
+  }
+    
 ]
